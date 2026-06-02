@@ -34,14 +34,15 @@ const projects = [
     title: 'Backhand Booking ',
     stack: '[Full-Stack]',
     desc: 'Tennis Court Reservation System developed with PHP, MySQL and React. ',
+    demo: 'https://github.com/toxortcs02/canchas-app',
     code: 'https://github.com/toxortcs02/canchas-app',
   },
   {
-    tag: 'ENCHANTMENT',
-    title: 'RUNE PALETTE',
+    tag: 'League Tracker',
+    title: 'Result tracker',
     stack: '[Full-Stack]',
-    desc: 'A color tome inspired by ancient runes. Forge palettes and export them as CSS scrolls.',
-    demo: '#', code: '#',
+    desc: 'A web app for tracking and visualizing results of a League of Legends team, built with TypeScript, React, and plpgSQL.',
+    demo: 'https://fake-clan.vercel.app/', code: 'https://fake-clan.vercel.app/',
   },
   {
     tag: 'BATTLE',
@@ -107,8 +108,8 @@ Full-stack developer with a focus on backend development, specializing in Python
       <h3 class="project-title">${p.stack}</h3>
       <p class="project-desc">${p.desc}</p>
       <div class="project-links">
-        <a href="${p.demo}" class="nes-btn is-warning" style="font-size:9px;padding:8px 12px">▶ DEMO</a>
-        <a href="${p.code}" class="nes-btn"            style="font-size:9px;padding:8px 12px">{ CODE }</a>
+        <a href="${p.demo}" target="_blank" rel="noopener noreferrer" class="nes-btn is-warning" style="font-size:9px;padding:8px 12px">▶ DEMO</a>
+        <a href="${p.code}" target="_blank" rel="noopener noreferrer" class="nes-btn"            style="font-size:9px;padding:8px 12px">{ CODE }</a>
       </div>
     </div>`).join('')}
   </div>
